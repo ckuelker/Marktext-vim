@@ -59,7 +59,7 @@ syn region mktToc      start=/\n\n\nTable of Contents/ skip=/\n\n\n/ end=/…\+\
 
 
 " monocolor block
-syn region mktTable        start=/^\s\+╭/ end=/╯/
+syn region mktTable        start=/^\s*╭/ end=/╯/
 syn match  mktDocEnd       /\(┗━\+┛\)/
 syn match  mktDocStart     /\(┏━\+.*━┓\)/
 syn match  mktDocLine      /┃\s\+.*\s\+┃/ contains=mktDoc
