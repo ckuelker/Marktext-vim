@@ -1,0 +1,30 @@
+
+
+README
+
+
+Installation
+
+To install marktext.vim, copy the marktext.vim file to your vim configuration.
+For example into the following directory ~/.vim/syntax and you can use the new
+Marktext syntax highlighting after open a new Marktext text in vim.
+
+
+License
+
+The file marktext.vim is licensed under same license as vim itself. In case you
+are not sure which license this is, please have a look at the following page:
+http://vimdoc.sourceforge.net/htmldoc/uganda.html#license. In case you do not
+have access to this page a copy of the license is included in this directory
+under the name license.txt for courtesy. Some passages of this license may not
+imply to marktext.vim and will be replaced with formulation of similar
+intention on a case by case basis. Please understand that marktext.vim is not
+(jet?) part of the vim distribution. Therefore Bram Moolenaar is not the
+maintainer of marktext.vim, but if someone from the vim community would like to
+be, please drop me note and I will change this text.
+
+As a second option marktext.vim is licensed under the GNU General Public
+License (GPL) version 2. You can distribute the modified marktext.vim under the
+GNU GPL version 2 or any later version.
+
+Christian Kuelker, 2013-04-01
