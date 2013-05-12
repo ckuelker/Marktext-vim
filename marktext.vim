@@ -40,7 +40,7 @@ syn region  mktBold      start=/\(\s\+\|\_^\)\*.\{-1,}/ end=/\*/ oneline
 syn region  mktItalic    start=/\(\s\+\|\_^\)_.\{-1,}/ end=/_/ oneline   
 syn match   mktVerb      /|.\{-1,}|/ 
 syn match   mktCode      /`.\{-1,}`/
-syn match   mktQuote     /".\{-1,}"/ 
+syn match   mktQuote     /“.\{-1,}”/ 
 syn match   mktListItem  "\_^\s*[-*+]\s\+.*\n"
 syn match   mktListItem  "\_^\s*\d\+\.\s\+.*\n"
 
