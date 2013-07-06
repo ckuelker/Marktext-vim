@@ -5,9 +5,10 @@ README
 
 Installation
 
-To install marktext.vim, copy the marktext.vim file to your vim configuration.
-For example into the following directory ~/.vim/syntax and you can use the new
-Marktext syntax highlighting after open a new Marktext text in vim.
+To install marktext.vim, copy the syntax/marktext.vim and ftdetect/marktext.vim
+file to your vim configuration. For example: copy syntax/marktext.vim into
+~/.vim/syntax and ftdetect/marktext.vim into ~/.vim/ftdetect and you can use
+the new Marktext syntax highlighting after open a new Marktext text in vim.
 
 
 License
